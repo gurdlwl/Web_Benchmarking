@@ -4,7 +4,7 @@ head, body{
 
 div#menuBar {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.78);
+  background-color: rgba(0, 0, 0, 0.8);
   width:100%;
   padding-top: 9px;
   padding-bottom : 13px;
@@ -63,6 +63,10 @@ div.miniPanel{
   margin-left : 5px;
   margin-bottom : 8px;
   background-color: #FAFAFA;
+}
+
+div.miniPanel{
+  cursor: pointer;
 }
 
 div.gray{
