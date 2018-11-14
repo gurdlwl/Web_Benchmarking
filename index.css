@@ -63,6 +63,7 @@ div.miniPanel{
   margin-left : 5px;
   margin-bottom : 8px;
   background-color: #FAFAFA;
+  background-color: black;
 }
 
 div.miniPanel{
@@ -77,17 +78,14 @@ div.gray{
 }
 
 div.info{
-  display: inline-flex;
-
-}
-
-div.infomations{
-  
+  margin-left: 432px;
+  display: flex;
 }
 
 ul.infomation{
   list-style: none;
   float:left;
+  margin-right: 50px;
 }
 
 li.infomation{
@@ -102,4 +100,40 @@ li.infomation:hover{
 
 div.infomation{
   display: grid;
+}
+
+p.info{
+  color:gray;
+  text-align:center;
+}
+
+a{
+  color:blue;
+}
+
+hr{
+  color:gray;
+  width:50%;
+}
+
+ul.info{
+  color:gray;
+  list-style:none;
+  text-align:center;
+}
+
+li.info{
+  display: inline;
+  border-left:1px solid #999;
+  padding:0 10px;
+}
+
+li.infoFirst{
+  display: inline;
+  padding:0 10px;
+}
+
+li.info:hover, li.infoFirst:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
