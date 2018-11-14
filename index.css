@@ -63,11 +63,11 @@ div.miniPanel{
   margin-left : 5px;
   margin-bottom : 8px;
   background-color: #FAFAFA;
-  background-color: black;
 }
 
 div.miniPanel{
   cursor: pointer;
+  text-align: center;
 }
 
 div.gray{
@@ -104,6 +104,7 @@ div.infomation{
 
 p.info{
   color:gray;
+  font-size: 12px;
   text-align:center;
 }
 
@@ -136,4 +137,9 @@ li.infoFirst{
 li.info:hover, li.infoFirst:hover{
   text-decoration: underline;
   cursor: pointer;
+}
+
+p{
+  color:black;
+  font-size: 20pt;
 }
